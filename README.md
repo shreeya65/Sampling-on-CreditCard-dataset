@@ -1,21 +1,21 @@
 # Sampling-on-CreditCard-dataset
 Performed 5 sampling techniques on 5 different models.
 
-#Sampling Techniques Used-
+# Sampling Techniques Used-
 1. Simple random sampling
 2. Systematic sampling
 3. Stratified sampling
 4. Cross-validation sampling
 5. Bootstrap sampling
 
-#Models Used-
+# Models Used-
 1. M1: RandomForestClassifier
 2. M2: LogisticRegression
 3. M3: SVC
 4. M4: DecisionTreeClassifier
 5. M5: GaussianNB
 
-#Results
+# Results
 | Models | Bootstrap | Cross_Validation | Simple_Random | Stratified | Systematic |
 |----------|----------|----------|----------|----------|----------|
 | M1    | 0.967741935483871   | 1   |  1   | 1   | 0.903225806451612   |
